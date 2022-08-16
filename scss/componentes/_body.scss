@@ -1,0 +1,13 @@
+body {
+    background-color: $bg-fondoclaro;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: nth($list: $variablesfuentes, $n:13);
+    font-size: 6rem;
+    padding: 0;
+    margin-top: 5%;
+    color: rgb(75, 86, 75);
+}
