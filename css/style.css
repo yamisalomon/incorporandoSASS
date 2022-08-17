@@ -1,5 +1,17 @@
 @charset "UTF-8";
 /*# Gama cromática */ /*# Variables tipográficas */
+/*# Tamaños tipográficos */
+.verProyectosButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: g-fondoclaro .verProyectosButton;
+}
+.verProyectosButton hover {
+  text-decoration: underline;
+  background-color: #6f7f6f;
+}
+
 body {
   background-color: rgb(236, 236, 236);
 }
@@ -12,6 +24,26 @@ body {
   padding: 0;
   margin-top: 5%;
   color: rgb(75, 86, 75);
+}
+
+.header {
+  display: flexbox;
+  flex-direction: row;
+  float: right;
+  position: relative;
+  margin: 10 auto;
+  font-family: "Poppins", sans-serif;
+  font-size: small;
+  line-height: 0.3rem;
+  text-decoration: none;
+}
+.header:hover {
+  text-decoration: underline;
+}
+@media screen and (max-width: 400px) {
+  .header {
+    background-color: #272d27;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

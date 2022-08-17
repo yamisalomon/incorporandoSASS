@@ -1,0 +1,13 @@
+.verProyectosButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: map-get($button , color)
+
+    &;hover{
+        text-decoration: underline;
+        background-color: lighten($color: $bg-verdeoscuro, $amount: 15%);         
+    }
+
+}        
+    

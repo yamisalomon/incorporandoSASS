@@ -1,0 +1,19 @@
+.header{
+    display: flexbox;
+    flex-direction: row;
+    float: right;
+    position: relative;
+    margin: 10 auto;
+    font-family: 'Poppins', sans-serif;
+    font-size:  nth($list: $size, $n:1);
+    line-height: 0.3rem;
+    text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+    }
+
+    @media screen and (max-width: 400px) {
+    background-color: darken($color: $bg-verdeoscuro, $amount: 15%);         
+    }
+}
+

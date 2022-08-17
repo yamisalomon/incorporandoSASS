@@ -147,7 +147,6 @@ h6 {
     align-items: flex-start;
 }
 
-/* Home - Proyectos */
 .verProyectosButton{
     display: flex;
     justify-content: center;
@@ -165,12 +164,24 @@ h6 {
     margin-top: 5%;
     background-color: rgb(130, 142, 130);
     border: 0;
-    }
-
-section{
-    align-items: center;
-}
-
+    }.verProyectosButton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+    
+    .buttonProyectos{
+        color:aliceblue;
+        padding: 1rem;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: normal;
+        font-size: 1rem;
+        padding: 1rem;
+        margin-top: 5%;
+        background-color: rgb(130, 142, 130);
+        border: 0;
+        }
 
 
 
