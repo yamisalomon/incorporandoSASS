@@ -1,13 +1,42 @@
 @charset "UTF-8";
-/*# Gama cromática */ /*# Variables tipográficas */
+/*# Gama cromática */ /*# Incluyendo Maps */ /*# Variables tipográficas */
 /*# Tamaños tipográficos */
-.verProyectosButton {
+/*# Incluyendo Extend */
+.textointro {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.textointro {
+  background-color: rgb(75, 86, 75);
+}
+
+.footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: g-fondoclaro .verProyectosButton;
 }
-.verProyectosButton hover {
+
+.footer {
+  background-color: rgb(130, 142, 130);
+}
+
+/*# Mixin sin parámetros */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# Mixin con parámetros */
+/*# Incluyendo Maps - Comp - Proyectos */
+.buttonProyectos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(130, 142, 130) .buttonProyectos;
+}
+.buttonProyectos hover {
   text-decoration: underline;
   background-color: #6f7f6f;
 }

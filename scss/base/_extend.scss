@@ -1,0 +1,26 @@
+
+/*# Incluyendo Extend */
+
+%disposition{
+    text-align: center;
+    margin-top: 5%;
+    }
+
+
+.textointro{
+    background-color: $bg-verdeoscuro;
+    @extend %disposition;
+}
+
+
+%dispositionfooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer{
+    background-color: $bg-verdeclaro;
+    @extend %dispositionfooter;
+}

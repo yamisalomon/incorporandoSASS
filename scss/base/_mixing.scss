@@ -1,0 +1,24 @@
+@mixin titulos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*# Mixin sin parámetros */
+header{
+    @include titulos();
+}
+
+/*# Mixin con parámetros */
+
+$colors: $bg-verdeclaro;
+$ancho: 100%;
+$borde: 20px;
+
+@mixin services ($colors, $ancho, $borde){
+    background-color: $colors;
+    width: $ancho;
+    border: $borde;
+}
+
+

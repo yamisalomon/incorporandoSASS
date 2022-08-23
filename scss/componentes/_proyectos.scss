@@ -1,8 +1,10 @@
-.verProyectosButton{
+/*# Incluyendo Maps - Comp - Proyectos */
+
+.buttonProyectos{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: map-get($button , color)
+    background-color: map-get($button, background-color)
 
     &;hover{
         text-decoration: underline;
