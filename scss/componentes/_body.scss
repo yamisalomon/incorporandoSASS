@@ -1,13 +1,72 @@
+/*# Estilo de fuentes en toda la página*/
 body {
     background-color: $bg-fondoclaro;
+    font-family: 'Poppins', sans-serif;
 }
 
-.title {
+/*# TÍTULOS */
+
+h1{
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    font-weight: nth($list: $variablesfuentes, $n:13);
-    font-size: 6rem;
-    padding: 0;
-    margin-top: 5%;
-    color: rgb(75, 86, 75);
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 3rem 1rem 3rem 1rem;
+    color: rgb(151, 167, 151);
 }
+
+
+
+h2 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 3rem 1rem 3rem 1rem;
+    color: rgb(151, 167, 151);
+}
+
+
+h3 {
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    padding: 0;
+    color: rgb(151, 167, 151);
+    line-height: 4rem;
+    margin: 4rem 4rem 4rem 8rem;
+
+}
+
+
+h5 {
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1.4rem;
+    padding: 0;
+    color:rgb(151, 167, 151);
+    line-height: 4rem;
+    margin: 2rem 1rem -2rem 8rem;
+
+}
+
+
+h6 {
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    line-height: 4rem;
+    margin: -1rem 1rem -2.5rem 8rem;
+
+}
+
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color:$bg-verdeclaro;
+}
+
