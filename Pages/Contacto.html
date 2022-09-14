@@ -18,26 +18,50 @@
 <body>
   
 <!-- MENÚ -->
-  
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(130, 142, 130);">
-    <div class="container-fluid">
-       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              
-        <div class="navbar-nav mr-auto header p-4">
-          <a class="nav-link active text-white fuentetipo " href="../index.html">Home</a>
-          <a class="nav-link active text-white fuentetipo " href="../Pages/Nosotros.html">Nosotros</a>
-          <a class="nav-link active text-white fuentetipo" href="../Pages/Proyectos.html">Proyectos</a>
-          <a class="nav-link active text-white fuentetipo" href="../Pages/Servicios.html">Servicios</a>
-          <a class="nav-link active text-white fuentetipo" href="../Pages/Contacto.html">Contacto</a>
-        </div>
-      </div>
+<nav class="navbar navbar-expand-lg navbar-dark d-flex navbarright"  style="background-color: rgb(130, 142, 130);" >
+  <div class="container-fluid header p-1 mx-auto">
+
+    <a class="navbar-brand ms-4" href="../index.html"><img src="../img-p/logo blanco_Mesa de trabajo 1 copia.png" alt=""></a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-light fuentetipo fw-normal" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item m-2">
+          <a class="nav-link" aria-current="page"  href="../index.html">Home</a>
+        </li>
+
+        <li class="nav-item m-2">
+          <a class="nav-link" href="../Pages/Nosotros.html">Nosotros</a>
+
+        <li class="nav-item m-2">
+          <a class="nav-link" href="../Pages/Proyectos.html">Proyectos</a>
+        </li>
+        <li class="nav-item m-2">
+          <a class="nav-link" href="../Pages/Servicios.html">Servicios</a>
+        </li>
+
+        <li class="nav-item m-2">
+          <a class="nav-link active mt-n1;" href="../Pages/Contacto.html">Contactos</a>
+        </li>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
+
 
 
 <br>
 <br>
+<medium  class="container d-flex p-2 fw-bolder ms-auto text-decoration-underline 
+text-secondary fst-italic ";> + + Contanos tus necesidades</medium >
       <section class="caja" class="grid-layout container">
+        <br>
+        <br>
         <div class="c1">
             <h1 data-scroll="0" class="heading h3 fade-up is-inview display-3 container">¡Estamos <strong>list@s</strong> 
               para <br> acompañarte en este  <br> <strong> proceso creativo! ~</strong>  </h1> 
@@ -87,10 +111,7 @@
     
 </section>
 
-
-
-
-  <br>
+ <br>
   <h5 class="container">¿Tenés preguntas?. Completá el formulario: </h5> 
 
 </section>
@@ -101,11 +122,11 @@
 <form id="form" class=" mb-3  topBefore container">
 	
        
-<div class="mb-3 container">
+<div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label">E-mail</label>
-  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@gmail.com">
+  <input  width=50% type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@gmail.com">
 </div>
-<div class="mb-3 container">
+<div class="mb-3">
   <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Contanos cuál es tu consulta"></textarea>
 </div>
